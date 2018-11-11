@@ -45,10 +45,12 @@
 
 * 进行压力测试一，总请求数`n`为1000,单次并发请求数`c`为100
 	![img](./image/8.png)
+
   分析：压力测试一持续时间`Time taken for tests`为0.185秒，测试结果`Fail Requests`数量为0,请求全部完成。`Time per request`平均每0.185毫秒测试一个请求，`Percentage of the requests`所有的请求都在68毫秒内完成。
 
 * 进行压力测试二，总请求数`n`为5000,单次并发请求数`c`为500
 	![img](./image/9.png)
+	
   分析：压力测试二持续时间`Time taken for tests`为0.837秒，测试请求全部通过。`Time per request`平均每0.167毫秒测试一个请求，`Percentage of the requests`所有的请求都在97毫秒内完成。
 
 * 测试结果：本`Web`应用程序抗压能力较强。
