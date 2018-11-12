@@ -55,3 +55,5 @@
 
 * 测试结果：本`Web`应用程序抗压能力较强。
 
+## Go语言net/http源码阅读博客
+[传送门](https://palette25.github.io/2018/11/12/Service-Computing-Go-Http-Analysis/)
